@@ -13,8 +13,15 @@ function Home() {
 
   return (
     <div>
-      {data.map(({ _id, title }) => (
-        <div key={_id}>{title}</div>
+      {data.map(({ _id, title, items }) => (
+      <div key={_id}>
+        {title}
+        <ul>
+          {items.map(({ _id, title: itemTitle }) => (
+            <li key={_id}>{itemTitle}</li>
+          ))}
+        </ul>
+      </div>
       ))}
     </div>
   );
