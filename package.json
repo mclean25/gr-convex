@@ -14,8 +14,12 @@
   "license": "ISC",
   "packageManager": "pnpm@10.7.0",
   "dependencies": {
+    "@convex-dev/react-query": "0.0.0-alpha.8",
+    "@tanstack/react-query": "^5.71.1",
     "@tanstack/react-router": "^1.114.32",
+    "@tanstack/react-router-with-query": "^1.114.32",
     "@tanstack/react-start": "^1.114.32",
+    "convex": "^1.22.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "vinxi": "^0.5.3"
